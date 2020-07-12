@@ -60,11 +60,11 @@ jobs:
           if [ '${{ secrets.TELEGRAM_BOT_TOKEN }}' != '' ]; then sed -i "s/^TELEGRAM_BOT_TOKEN=.*$/TELEGRAM_BOT_TOKEN='${{ secrets.TELEGRAM_BOT_TOKEN }}'/" .env; fi
           if [ '${{ secrets.TELEGRAM_BOT_ENABLE }}' != '' ]; then sed -i "s/^TELEGRAM_BOT_ENABLE=.*$/TELEGRAM_BOT_ENABLE='${{ secrets.TELEGRAM_BOT_ENABLE }}'/" .env; fi
           if [ '${{ secrets.NOTICE_FREQ }}' != '' ]; then sed -i "s/^NOTICE_FREQ=.*$/NOTICE_FREQ='${{ secrets.NOTICE_FREQ }}'/" .env; fi
-          sed -i "s/^ON_GITHUB_ACTIONS=.*$/ON_GITHUB_ACTIONS=true/" /freenom/.env
+          sed -i "s/^ON_GITHUB_ACTIONS=.*$/ON_GITHUB_ACTIONS=true/" .env
 
 
-#      - name: mv env
-#        run: [ -e $CONFIG_FILE ] && mv $CONFIG_FILE freenom/.env
+      - name: mv env
+        run: mv .env /freenom/.env
       
       - name: Run
         run: |
