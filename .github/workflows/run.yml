@@ -20,6 +20,10 @@ on:
       - master
   schedule:
     - cron: 00 02 * * *
+
+env:
+  CONFIG_FILE: .env.example
+
 jobs:
   run-it:
     runs-on: ubuntu-18.04
@@ -31,6 +35,10 @@ jobs:
         uses: shivammathur/setup-php@v2
         with:
           php-version: '7.2'
+      
+      - name: Clone source code
+        run: git clone https://github.com/luolongfei/freenom.git ./
+        
       - name: Setting
         run: |
           echo 'Renew freenom domain name automatically.'
@@ -50,6 +58,12 @@ jobs:
           if [ '${{ secrets.TELEGRAM_BOT_ENABLE }}' != '' ]; then sed -i "s/^TELEGRAM_BOT_ENABLE=.*$/TELEGRAM_BOT_ENABLE='${{ secrets.TELEGRAM_BOT_ENABLE }}'/" .env; fi
           if [ '${{ secrets.NOTICE_FREQ }}' != '' ]; then sed -i "s/^NOTICE_FREQ=.*$/NOTICE_FREQ='${{ secrets.NOTICE_FREQ }}'/" .env; fi
           sed -i "s/^ON_GITHUB_ACTIONS=.*$/ON_GITHUB_ACTIONS=true/" .env
+      - name: copy env
+        run: cd freenom && cp .env.example .env
+      
+      - name: mv env
+        run: [ -e $CONFIG_FILE ] && mv $CONFIG_FILE freenom/.env
+      
       - name: Run
         run: |
           php run
