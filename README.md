@@ -15,7 +15,7 @@
 ## 如何使用
 1、'Fork' 本仓库
 
-2、在你 'Fork' 的本仓库下的 'Settings' -> 'Secrets' 页面追加以下几个secret秘密环境变量
+2、在你 'Fork' 的本仓库下的 'Settings' -> 'Secrets' 页面追加以下几个secret秘密环境变量，仅自己能见，'Fork' 也不可见。
 
 <details>
     <summary>点我查看需要添加的具体秘密变量</summary>
