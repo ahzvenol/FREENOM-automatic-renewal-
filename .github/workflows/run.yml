@@ -15,18 +15,22 @@
 name: Run it on action
 
 on:
-  push:
-  #  branches:
-  #    - master
+#  push:
+#    branches:
+#      - master
   schedule:
     - cron: 00 02 * * *
-
+  watch:
+    types: started
+  
 env:
   CONFIG_FILE: .env
 
 jobs:
   build:
     runs-on: ubuntu-18.04
+    if: github.event.repository.owner.id == github.event.sender.id
+    
     name: Run it on action
     steps:
       - name: Checkout master
