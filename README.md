@@ -10,7 +10,7 @@
 ## 效果
 ![邮件示例](https://s1.ax1x.com/2020/07/12/U8DDc4.png "邮件内容")  
 
-![电报示例](https://s1.ax1x.com/2020/07/12/U8SOKO.png "电报通知")  
+![电报示例](https://s1.ax1x.com/2020/07/12/U8yhCV.png "电报通知")  
 
 ## 如何使用
 1、'Fork' 本仓库
