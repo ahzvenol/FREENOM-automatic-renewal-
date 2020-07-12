@@ -54,4 +54,4 @@
 
 5、查看执行详情
 
-![查看执行详情 01](https://s1.ax1x.com/2020/07/12/U82gMT.gif "查看执行详情动画")
+ <a href="https://imgchr.com/i/U8H18e"><img src="https://s1.ax1x.com/2020/07/12/U8H18e.md.gif" alt="U8H18e.gif" border="0" /></a>
