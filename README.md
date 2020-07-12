@@ -4,6 +4,8 @@
 ![GitHub Forks](https://img.shields.io/github/forks/Lancenas/freenom-automatic-renewal.svg?style=flat-square&label=Forks&logo=github)
 ## 说明
 - 本项目只是应用[luolongfei/freenom](https://github.com/luolongfei)源码使用'GitHub Action'进行云续期；
+- 默认每天10点自动运行，域名到期情况邮件或Telegram通知；
+- 'Secrets'变量设置后，点击右上 'star' 运行测试是否无误。
 
 ## 效果
 ![邮件示例](https://s2.ax1x.com/2020/01/31/139Rrd.png "邮件内容")  
@@ -11,9 +13,9 @@
 ![电报示例](https://s1.ax1x.com/2020/07/12/U8SOKO.png "电报通知")  
 
 ## 如何使用
-1、Fork 本仓库
+1、'Fork' 本仓库
 
-2、在你 Fork 的本仓库下的 Settings -> Secrets 页面追加以下几个secret秘密环境变量
+2、在你 'Fork' 的本仓库下的 'Settings' -> 'Secrets' 页面追加以下几个secret秘密环境变量
 
 <details>
     <summary>点我查看需要添加的具体秘密变量</summary>
