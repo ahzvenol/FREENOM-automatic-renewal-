@@ -41,6 +41,8 @@
 
 ![新建变量画面](https://s1.ax1x.com/2020/07/09/UeRUs0.png "新建变量画面")
 
+![变量全图](https://s1.ax1x.com/2020/07/12/U8B3e1.png "变量全图")
+
 3、同意启用 Actions
 
 ![同意启用 Actions](https://s1.ax1x.com/2020/07/09/UeRusP.png "同意启用 Actions")
