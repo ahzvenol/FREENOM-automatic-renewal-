@@ -39,9 +39,9 @@
 
 </details>
 
-![设置秘密环境变量](https://s1.ax1x.com/2020/07/09/Ue20Cd.png "设置秘密环境变量")
+![设置秘密环境变量](https://s1.ax1x.com/2020/07/12/U8rjd1.png "设置秘密环境变量")
 
-![新建变量画面](https://s1.ax1x.com/2020/07/09/UeRUs0.png "新建变量画面")
+![新建变量画面](https://s1.ax1x.com/2020/07/12/U8spRO.png "新建变量画面")
 
 ![变量全图](https://s1.ax1x.com/2020/07/12/U8B3e1.png "变量全图")
 
