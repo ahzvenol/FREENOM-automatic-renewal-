@@ -8,7 +8,7 @@
 - 'Secrets'变量设置后，点击右上 'star' 运行测试是否无误。
 
 ## 效果
-![邮件示例](https://s2.ax1x.com/2020/01/31/139Rrd.png "邮件内容")  
+![邮件示例](https://s1.ax1x.com/2020/07/12/U8DDc4.png "邮件内容")  
 
 ![电报示例](https://s1.ax1x.com/2020/07/12/U8SOKO.png "电报通知")  
 
