@@ -3,7 +3,7 @@
 ![GitHub Stars](https://img.shields.io/github/stars/Lancenas/freenom-automatic-renewal.svg?style=flat-square&label=Stars&logo=github)
 ![GitHub Forks](https://img.shields.io/github/forks/Lancenas/freenom-automatic-renewal.svg?style=flat-square&label=Forks&logo=github)
 ## 说明
-- 本项目只是应用[luolongfei/freenom](https://github.com/luolongfei)源码使用'GitHub Action'进行云续期；
+- 本项目是应用[luolongfei/freenom](https://github.com/luolongfei)源码使用'GitHub Action'进行云续期；
 - 默认每天10点自动运行，域名到期情况邮件或Telegram通知；
 - 'Secrets'变量设置后，点击右上 'star' 运行测试是否无误。
 - 建议使用QQ或163邮箱授权码登陆。Gmail每次登陆会报错。
