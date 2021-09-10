@@ -72,5 +72,5 @@ jobs:
       
       - name: Run
         run: |
-          cd freenom
+          cd FREENOM-automatic-renewal
           php run
