@@ -44,7 +44,7 @@ jobs:
         run:  git clone https://github.com/Lancenas/FREENOM-automatic-renewal.git
  
       - name: copy env
-        run:  cd freenom
+        run:  cd FREENOM-automatic-renewal
       
       - name: Setting
         run: |
