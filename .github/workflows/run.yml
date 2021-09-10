@@ -41,7 +41,7 @@ jobs:
           php-version: '7.2'
       
       - name: Clone source code
-        run:  git clone https://github.com/luolongfei/freenom.git
+        run:  git clone https://github.com/Lancenas/FREENOM-automatic-renewal.git
  
       - name: copy env
         run:  cd freenom && cp .env.example .env
